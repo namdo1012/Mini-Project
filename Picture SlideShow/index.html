@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Picture slideshow</title>
+    <link rel="stylesheet" type="text/css" href="/index.css" />
+  </head>
+
+  <body>
+    <div class="slide__container">
+      <img
+        src="./img/img4_large.jpg"
+        alt="Image background"
+        id="slide__background"
+      />
+
+      <h1 class="slide__hero">Simple Image Slider</h1>
+
+      <div class="slide__nav">
+        <img
+          src="/img/img1_thumb.jpg"
+          alt="Image 1 thumb"
+          class="slide__background--thumb"
+          onclick="turnSlide(1)"
+          id="1"
+        />
+        <img
+          src="/img/img2_thumb.jpg"
+          alt="Image 2 thumb"
+          class="slide__background--thumb"
+          onclick="turnSlide(2)"
+          id="2"
+        />
+        <img
+          src="/img/img3_thumb.jpg"
+          alt="Image 3 thumb"
+          class="slide__background--thumb"
+          onclick="turnSlide(3)"
+          id="3"
+        />
+        <img
+          src="/img/img4_thumb.jpg"
+          alt="Image 4 thumb"
+          class="slide__background--thumb"
+          onclick="turnSlide(4)"
+          id="4"
+        />
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript" src="/index.js"></script>
+</html>
